@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
     </nav>
     <section id="Intro" class="parallax-window intro" data-parallax="scroll" data-nav="intro" data-image-src="img/antique-cafe-bg-01.jpg">
         <div class="container">
-            <div class="moca">
+            <div class="moca wow bounceInUp">
                 <div class="moca_top moca_size">
                     <h1>moca cafe</h1>
                     <p>your daily energy booster</p>
@@ -48,7 +49,7 @@
         <div class="container">
             <h2>Our Cafe Menu</h2>
             <div class="menu">
-                <div class="menu-left">
+                <div class="menu-left wow bounceInLeft">
                     <div class="list">
                         <div class="img_list">
                             <img src="./img/menu-item-1.jpg">
@@ -84,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-left">
+                <div class="menu-left wow bounceInRight">
                     <div class="list">
                         <div class="img_list"><img src="./img/menu-item-1.jpg"></div>
                         <div class="menu_list">
@@ -172,6 +173,10 @@
     </section>
     <script src="./js/jquery-3,2,1.js"></script>
     <script src="./js/parallax.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+         new WOW().init();
+    </script>
     <script src="./js/main.js"></script>
 </body>
 </html>

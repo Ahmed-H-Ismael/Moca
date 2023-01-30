@@ -5,7 +5,6 @@ $(document).ready(function(){
             })
     });
     });
-
 const mysection = document.querySelectorAll("section");
 const navBar = document.querySelector("nav");
 const NavHref = document.querySelectorAll("nav ul li a");
